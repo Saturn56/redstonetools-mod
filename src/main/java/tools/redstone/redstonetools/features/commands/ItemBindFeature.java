@@ -16,6 +16,9 @@ import tools.redstone.redstonetools.features.Feature;
 import tools.redstone.redstonetools.features.feedback.Feedback;
 import tools.redstone.redstonetools.utils.ItemUtils;
 
+import static tools.redstone.abstracraft.usage.Usage.*;
+
+
 @AutoService(AbstractFeature.class)
 @Feature(command = "itembind", description = "Allows you to bind command to a specific item", name = "Item Bind")
 public class ItemBindFeature extends CommandFeature{
